@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TodoForm from "./TodoForm";
 import Todo from "./Todo";
-
+import Nodata from "../image/Nodata.png"
 export default function TodoList() {
   const [todos, setTodos] = useState([]);
   const addTodo = (todo) => {
@@ -45,7 +45,15 @@ export default function TodoList() {
       <h1>React TodoLise App</h1>
       <TodoForm onSubmit={addTodo} />
       {todos == 0 ? (
-        <h1>Oppps! No Data </h1>
+        <div><img
+          src={Nodata}
+          className="Nodata"
+                  width="80%"
+                  alt="movie"
+                ></img>
+          <h1>Oppps! No Data </h1>
+        </div>
+        
       ) : (
         <Todo
           todos={todos}
