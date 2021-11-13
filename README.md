@@ -1,12 +1,14 @@
 # SwapPai-todolist-app
-SwapPai-todolist-app
+
+*You try **SwapPai-todolist-app.** To add an item And can edit and delete it. Try it now. Have fun with it.
+
 start 
 
-npm install
+> npm install
 
-npm i uuid
+> npm i uuid
 
-npm start
+> npm start
 
 ![1636818719241](https://user-images.githubusercontent.com/71228820/141650322-f876b558-1e85-4e51-b9b2-1443b5ca8af9.jpg)
 
